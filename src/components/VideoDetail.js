@@ -15,6 +15,9 @@ const VideoDetail = ({ video }) => {
 				<h4 className="ui header">{video.snippet.title}</h4>
 				<p>{video.snippet.description}</p>
 			</div>
+			<div>
+				<h1>{video.snippet.title}</h1>
+			</div>
 		</div>
 	);
 };
